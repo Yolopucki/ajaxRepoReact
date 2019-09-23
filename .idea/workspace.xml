@@ -2,29 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="920b4a16-295b-4acb-aae3-24bf8bf28a49" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.eslintignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/victororlyk.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/App.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/Blog/NewPost/NewPost.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/Blog/Posts/Post/Post.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/Blog/Posts/Posts.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/Blog/Posts/Posts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hoc/asyncComponent.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/store.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.test.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/FullPost/FullPost.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/FullPost/FullPost.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/NewPost/NewPost.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Blog/NewPost/NewPost.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/NewPost/NewPost.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Post/Post.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Blog/Posts/Post/Post.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Post/Post.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/Blog/Blog.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Blog/Blog.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/containers/Blog/Blog.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Blog/Blog.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/serviceWorker.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/serviceWorker.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -127,8 +109,17 @@
       <workItem from="1559655529610" duration="2778000" />
       <workItem from="1559684488049" duration="15000" />
       <workItem from="1569150434206" duration="2846000" />
-      <workItem from="1569188688024" duration="789000" />
+      <workItem from="1569188688024" duration="821000" />
+      <workItem from="1569222017582" duration="2522000" />
     </task>
+    <task id="LOCAL-00001" summary="code style">
+      <created>1569190148063</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1569190148063</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -146,5 +137,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="code style" />
+    <option name="LAST_COMMIT_MESSAGE" value="code style" />
   </component>
 </project>

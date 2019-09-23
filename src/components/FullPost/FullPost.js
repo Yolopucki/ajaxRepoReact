@@ -22,16 +22,17 @@ class FullPost extends Component {
 			.then((response) => console.log(response));
 	};
 
-	loadData = () => {
+	loadData = async () => {
 		const { match: { params: { id } } } = this.props;
+		console.log("fetching");
 		const { post } = this.state;
 		if (id) {
 			if (!post
 				|| (post && post.id !== +id)) {
-				axios.get(`https://jsonplaceholder.typicode.com/posts/${id}`)
-					.then((response) => {
-						this.setState(() => ({ post: response.data }));
-					});
+				console.log("fetching");
+				const response = await axios.get(`https://jsonplaceholder.typicode.com/posts/${id}`);
+				console.log(this.response, "response data");
+				this.setState(() => ({ post: response.data}));
 			}
 		}
 	};
@@ -39,10 +40,11 @@ class FullPost extends Component {
 
 	render() {
 		const { match: { params: { id } } } = this.props;
-		const { postValue } = this.state;
-		let post = <p>Please select a post</p>;
+		const { post } = this.state;
+		console.log(post, "state");
+		let display = <p>Please select a post</p>;
 		if (id) {
-			post = (
+			display = (
 				<div className="FullPost">
 					<h1>Loading</h1>
 					<p>Loading</p>
@@ -52,10 +54,10 @@ class FullPost extends Component {
 				</div>
 			);
 			if (post) {
-				post = (
+				display = (
 					<div className="FullPost">
-						<h1>{ postValue.title }</h1>
-						<p>{ postValue.body }</p>
+						<h1>{ post.title }</h1>
+						<p>{ post.body }</p>
 						<div className="Edit">
 							<button
 								className="Delete"
@@ -68,7 +70,7 @@ class FullPost extends Component {
 				);
 			}
 		}
-		return post;
+		return display;
 	}
 }
 

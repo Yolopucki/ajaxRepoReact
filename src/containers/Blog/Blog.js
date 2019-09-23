@@ -54,7 +54,7 @@ class Blog extends Component {
 						path="/posts/"
 						component={ Posts }
 					/>
-					<Route render={ () => <h1>page not found or you don't have access</h1> } />
+					<Route render={ () => <h1>page not found or you don&lsquo;t have access</h1> } />
 				</Switch>
 			</div>
 		);
